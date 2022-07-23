@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+
+html{
+    background-image:url('https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+    height: 500%;
+}
+.heading{
+    font-family:'Edu SA Beginner';
+    font-size: 35px;
+    color: yellow;
+    text-align: center;
+    animation: color-change 5s infinite;
+    border: 5px solid red;
+}
+@keyframes color-change{
+    0%{
+        color: yellow;
+        border: 5px double greenyellow;
+    }
+    20%{
+        color: aqua;
+        border: 5px groove white;
+    }
+    40%{
+        color: lime;
+        border: 5px double blue;
+    }
+    60%{
+        color: magenta;
+        border: 5px dotted pink;
+    }
+    80%{
+        color: goldenrod;
+        border: 5px dashed indigo;
+    }
+    100%{
+        color: yellow;
+        border: 5px solid red;
+    }
+}
+.image1{
+height: 200px;
+transform: rotate(15deg);
+position: absolute;
+top: 19%;
+left: 5%;
+width: 200px;
+float: left;
+}
+.image2{
+    height: 200px;
+    transform: rotate(-20deg);
+    position: relative;
+    top: 13%;
+    width: 215px;
+    float: right;
+}
+.raigarh{
+    font-family: 'Edu QLD Beginner';
+    font-size: 30px;
+    position: absolute;
+    top: 19%;
+    left: 20%;
+    color: rgb(102, 255, 0);
+}
+.angul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    font-size: 30px;
+    color: rgb(0, 242, 255);
+    position: absolute;
+    left: 2%;
+    top: 70%;
+    right: 15%;
+}
+.btn{
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    background-color: red;
+    color: yellow;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 24px;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+}
+.btn2{
+    font-family: 'Roboto';
+    font-size: 20px;
+    background-color: rgb(179, 255, 0);
+    color: blue;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    padding: 10px 24px;
+    top: 115%;
+    left: 45%;
+}
+a{
+    text-align: center;
+    color: red;
+}
